@@ -53,7 +53,7 @@ describe Onfido::Webhook do
     end
 
     let(:request_body) { '{"foo":"bar"}' }
-    let(:request_signature) { 'fdab9db604d33297741b43b9fc9536028d09dca3' }
+    let(:request_signature) { '89e60408fec20bfb26bb0f993d5e88307818982f50f23b361a00d679bae8b1dc' }
     let(:token) { 'very_secret_token' }
 
     it { is_expected.to be(true) }
